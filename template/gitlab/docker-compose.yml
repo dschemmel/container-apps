@@ -17,8 +17,8 @@ gitlab:
     - "10022:22"
   environment:
     - DEBUG=false
-    - GITLAB-HOST=192.168.2.9
-    - GITLAB_PORT=10080
+    - GITLAB-HOST=10.0.3.4
+    - GITLAB_PORT=80
     - GITLAB_SSH_PORT=10022
     - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
     - GITLAB_SECRETS_OTP_KEY_BASE=qcs-gitlab-app
